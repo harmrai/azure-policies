@@ -5,8 +5,14 @@
                 "equals": "Microsoft.KeyVault/vaults"
             },
             {
-                "field": "Microsoft.KeyVault/vaults/enableSoftDelete",
-                "equals": "false"
+                "not": {
+                  "allOf": [
+                    {
+                      "field": "Microsoft.KeyVault/vaults/enableSoftDelete",
+                      "exists": "true"
+                    }
+                  ]
+                }
             }
         ]
     },		
