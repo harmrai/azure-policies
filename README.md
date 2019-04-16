@@ -1,5 +1,6 @@
 # azure-policies
 
+This repository contains some sample policies which are available 
 
 ## Notes
 
