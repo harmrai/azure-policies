@@ -1,6 +1,6 @@
 # azure-policies
 
-This repository contains some sample policies which are available 
+This repository contains some Azure policies which I have created and found useful at various client sites I have worked at.
 
 ## Notes
 
