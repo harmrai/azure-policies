@@ -1,6 +1,6 @@
 # azure-policies
 
-##### Get Aliases
+### Get Aliases
 Get aliases required for when defining types in a policy. Below is an example of both PowerShell and AzureCLI
 
 ```powershell
