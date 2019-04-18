@@ -1,6 +1,6 @@
 # azure-policies
 
-This repository contains some Azure policies which I have created and found useful at various client sites I have worked at.
+This repository contains some Azure policies which I have created and found useful at various client sites.
 
 ## Notes
 
@@ -20,6 +20,7 @@ az provider show --namespace Microsoft.KeyVault --expand "resourceTypes/aliases"
 Get-AzPolicyAlias | Select-Object Namespace -Unique | Sort-Object Namespace
 ```
 
+List of available resources which can be used with Azure Policy.
 ```
 Namespace
 ---------
@@ -68,5 +69,5 @@ Microsoft.Web
 
 ### Create New Policy
 ```powershell
-$definition = New-AzPolicyDefinition -Name 'auditKeyVaultSoftDelete' -Description 'Audit for Soft Delete Status on KeyVault' -Policy '.\softDelete-audit.json'
+New-AzPolicyDefinition -Name 'auditKeyVaultSoftDelete' -Description 'Audit for Soft Delete Status on KeyVault' -Policy '.\softDelete-audit.json'
 ```
