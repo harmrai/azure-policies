@@ -4,6 +4,9 @@ This repository contains some Azure policies which I have created and found usef
 
 ## Notes
 
+### Policy Definition Structure
+[https://docs.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure)
+
 ### Get Aliases
 Get aliases required for when defining types in a policy. Below is an example for retrieving the aliases for KeyVault using both PowerShell and AzureCLI
 
