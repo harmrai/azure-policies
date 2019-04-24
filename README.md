@@ -74,3 +74,8 @@ Microsoft.Web
 ```powershell
 New-AzPolicyDefinition -Name 'auditKeyVaultSoftDelete' -Description 'Audit for Soft Delete Status on KeyVault' -Policy '.\softDelete-audit.json'
 ```
+
+### Azure Policies Index
+[https://docs.microsoft.com/en-us/azure/governance/policy/samples/index](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index)
+### Azure Policy Samples GitHub
+[https://github.com/Azure/azure-policy](https://github.com/Azure/azure-policy)
