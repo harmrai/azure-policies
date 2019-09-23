@@ -1,0 +1,17 @@
+{
+    "if": {
+        "anyOf": [
+            {
+                "field": "type",
+                "equals": "Microsoft.Compute/virtualMachines"
+            },
+            {
+                "field": "type",
+                "equals": "Microsoft.Network/publicIPAddresses"
+            }
+        ]
+    },
+    "then": {
+        "effect": "deny"
+    }
+}
