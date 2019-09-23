@@ -4,6 +4,9 @@ This repository contains some Azure policies which I have created and found usef
 
 ## Notes
 
+### Policy Definition Structure
+[https://docs.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure)
+
 ### Get Aliases
 Get aliases required for when defining types in a policy. Below is an example for retrieving the aliases for KeyVault using both PowerShell and AzureCLI
 
@@ -71,3 +74,9 @@ Microsoft.Web
 ```powershell
 New-AzPolicyDefinition -Name 'auditKeyVaultSoftDelete' -Description 'Audit for Soft Delete Status on KeyVault' -Policy '.\softDelete-audit.json'
 ```
+
+### Azure Policies Index
+[https://docs.microsoft.com/en-us/azure/governance/policy/samples/index](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index)
+
+### Azure Policy Samples GitHub
+[https://github.com/Azure/azure-policy](https://github.com/Azure/azure-policy)
