@@ -1,0 +1,15 @@
+{
+    "if": {
+        "allOf": [
+            {
+                "field": "location",
+                "notIn": [
+                    "UKSouth"
+                ]
+            }
+        ]
+    },
+    "then": {
+        "effect": "deny"
+    }
+}
